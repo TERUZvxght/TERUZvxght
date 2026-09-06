@@ -19,7 +19,7 @@ Create a **fine-grained personal access token** owned by the profile owner:
 - Repository access: **All repositories** under that owner, to include future repositories automatically.
 - Repository permissions: **Metadata: Read-only** only. No contents, administration, workflow, or write access is needed by this token.
 - Account permissions: none.
-- Set an expiration and renew the token when needed.
+- The configured token has **no expiration**, as requested by the account owner. Replace it if it is revoked or its scope changes.
 
 Save it in this repository's **Settings → Secrets and variables → Actions → New repository secret** as `PROFILE_LANGUAGES_TOKEN`. Do not put the token in files, the README, issues, or a chat message.
 
