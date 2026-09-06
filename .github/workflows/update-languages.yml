@@ -1,0 +1,47 @@
+name: Update Top Languages
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-languages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Verify the aggregation and privacy boundary
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Generate aggregate language cards
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_LANGUAGES_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo '::error::Set PROFILE_LANGUAGES_TOKEN to an owner-scoped metadata-read token.'
+            exit 1
+          fi
+          python scripts/update_languages.py --owner "$PROFILE_OWNER"
+      - name: Publish only the two generated SVG cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/languages-light.svg assets/languages-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Update aggregate language cards'
+          git push origin HEAD:main
