@@ -32,9 +32,9 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github_dark&amp;title_color=76b7ff&amp;text_color=c9d1d9&amp;chart_color=76b7ff">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github">
-  <img alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github" width="49%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TERUZvxght/TERUZvxght/main/assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TERUZvxght/TERUZvxght/main/assets/stats-light.svg">
+  <img alt="GitHub statistics including public and private repositories: stars, commits, pull requests, issues, and repositories contributed to" src="https://raw.githubusercontent.com/TERUZvxght/TERUZvxght/main/assets/stats-light.svg" width="49%">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TERUZvxght/TERUZvxght/main/assets/languages-dark.svg">
@@ -42,7 +42,7 @@
   <img alt="Top languages by owned public and private repository count" src="https://raw.githubusercontent.com/TERUZvxght/TERUZvxght/main/assets/languages-light.svg" width="49%">
 </picture>
 
-<sub>活動・Stats は公開情報を自動集計。Top Languages は所有する公開・非公開リポジトリの主言語別件数（fork を除く）に基づきます。 / <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">GitHub Profile Summary Cards</a></sub>
+<sub>Stats・Top Languages は公開・非公開のデータを毎日集計し、合計値のみを表示。Top Languages は所有リポジトリの主言語別件数（fork を除く）です。上段の活動グラフは公開情報に基づきます。 / <a href="https://github.com/TERUZvxght/TERUZvxght/blob/main/docs/stats-cards.md">集計方法</a> · <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">Activity graph</a></sub>
 
 ## 開発で大切にしていること
 
