@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-labelledby="title desc">
+<title id="title">GitHub Stats</title>
+<desc id="desc">Public and accessible private statistics. Total Stars: 15; Total Commits: 2,632; Total PRs: 92; Total Issues: 22; Contributed to: 61. Commits follow GitHub contribution rules, summed across all contribution years.</desc>
+<rect x="0.5" y="0.5" width="339" height="199" rx="5" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="Segoe UI, Ubuntu, Helvetica Neue, sans-serif">
+<text x="20" y="30" font-size="18" fill="#0969da">Stats</text>
+<text x="20" y="48" font-size="10" fill="#57606a">Public + private</text>
+<circle cx="24" cy="69" r="3" fill="#0969da"/>
+<text x="37" y="73" font-size="13" fill="#24292f">Total Stars</text>
+<text x="314" y="73" font-size="13" text-anchor="end" font-weight="600" fill="#24292f">15</text>
+<circle cx="24" cy="93" r="3" fill="#0969da"/>
+<text x="37" y="97" font-size="13" fill="#24292f">Total Commits</text>
+<text x="314" y="97" font-size="13" text-anchor="end" font-weight="600" fill="#24292f">2,632</text>
+<circle cx="24" cy="117" r="3" fill="#0969da"/>
+<text x="37" y="121" font-size="13" fill="#24292f">Total PRs</text>
+<text x="314" y="121" font-size="13" text-anchor="end" font-weight="600" fill="#24292f">92</text>
+<circle cx="24" cy="141" r="3" fill="#0969da"/>
+<text x="37" y="145" font-size="13" fill="#24292f">Total Issues</text>
+<text x="314" y="145" font-size="13" text-anchor="end" font-weight="600" fill="#24292f">22</text>
+<circle cx="24" cy="165" r="3" fill="#0969da"/>
+<text x="37" y="169" font-size="13" fill="#24292f">Contributed to</text>
+<text x="314" y="169" font-size="13" text-anchor="end" font-weight="600" fill="#24292f">61</text>
+<text x="20" y="189" font-size="9" fill="#57606a">Updated 2026-09-06</text>
+</g></svg>
