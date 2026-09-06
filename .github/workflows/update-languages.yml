@@ -1,4 +1,4 @@
-name: Update Top Languages
+name: Update Profile Cards
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: profile-languages
+  group: profile-cards
   cancel-in-progress: false
 
 jobs:
@@ -35,13 +35,23 @@ jobs:
             exit 1
           fi
           python scripts/update_languages.py --owner "$PROFILE_OWNER"
-      - name: Publish only the two generated SVG cards
+      - name: Generate aggregate Stats cards
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo '::error::Set PROFILE_STATS_TOKEN to an owner token with repo and read:user scopes.'
+            exit 1
+          fi
+          python scripts/update_stats.py --owner "$PROFILE_OWNER"
+      - name: Publish only the four generated SVG cards
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- assets/languages-light.svg assets/languages-dark.svg
+          git add -- assets/languages-light.svg assets/languages-dark.svg assets/stats-light.svg assets/stats-dark.svg
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m 'Update aggregate language cards'
+          git commit -m 'Update aggregate profile cards'
           git push origin HEAD:main
