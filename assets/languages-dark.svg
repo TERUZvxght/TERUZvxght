@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-labelledby="title desc">
 <title id="title">Top Languages by Repo</title>
-<desc id="desc">Primary languages of owned public and private non-fork repositories. C#: 14 repositories; CMake: 1 repositories; CSS: 1 repositories; Dart: 1 repositories; Go: 2 repositories; HTML: 7 repositories; Java: 4 repositories; JavaScript: 6 repositories; Python: 8 repositories; Ruby: 3 repositories; Rust: 6 repositories; ShaderLab: 1 repositories; Shell: 1 repositories; Swift: 2 repositories; TypeScript: 2 repositories. Repositories without a detected language are omitted.</desc>
+<desc id="desc">Primary languages of owned public and private non-fork repositories. C#: 14 repositories; CMake: 1 repositories; CSS: 1 repositories; Dart: 1 repositories; Go: 2 repositories; HTML: 7 repositories; Java: 4 repositories; JavaScript: 6 repositories; Python: 9 repositories; Ruby: 3 repositories; Rust: 6 repositories; ShaderLab: 1 repositories; Shell: 1 repositories; Swift: 2 repositories; TypeScript: 2 repositories. Repositories without a detected language are omitted.</desc>
 <rect x="0.5" y="0.5" width="339" height="199" rx="5" fill="#0d1117" stroke="#30363d"/>
 <g font-family="Segoe UI, Ubuntu, Helvetica Neue, sans-serif">
 <text x="20" y="30" font-size="18" fill="#76b7ff">Top Languages by Repo</text>
@@ -8,37 +8,37 @@
 <circle cx="257" cy="119" r="54" fill="none" stroke="#21262d" stroke-width="19"/>
 <circle cx="24" cy="65" r="4" fill="#7355dd"/>
 <text x="34" y="69" font-size="11" fill="#c9d1d9">C#</text>
-<text x="173" y="69" font-size="11" text-anchor="end" fill="#c9d1d9">23.7%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#7355dd" stroke-width="19" stroke-dasharray="80.509968 339.292007" stroke-dashoffset="0.000000" transform="rotate(-90 257 119)"/>
+<text x="173" y="69" font-size="11" text-anchor="end" fill="#c9d1d9">23.3%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#7355dd" stroke-width="19" stroke-dasharray="79.168135 339.292007" stroke-dashoffset="0.000000" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="80" r="4" fill="#3572A5"/>
 <text x="34" y="84" font-size="11" fill="#c9d1d9">Python</text>
-<text x="173" y="84" font-size="11" text-anchor="end" fill="#c9d1d9">13.6%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#3572A5" stroke-width="19" stroke-dasharray="46.005696 339.292007" stroke-dashoffset="-80.509968" transform="rotate(-90 257 119)"/>
+<text x="173" y="84" font-size="11" text-anchor="end" fill="#c9d1d9">15.0%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#3572A5" stroke-width="19" stroke-dasharray="50.893801 339.292007" stroke-dashoffset="-79.168135" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="95" r="4" fill="#e34c26"/>
 <text x="34" y="99" font-size="11" fill="#c9d1d9">HTML</text>
-<text x="173" y="99" font-size="11" text-anchor="end" fill="#c9d1d9">11.9%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#e34c26" stroke-width="19" stroke-dasharray="40.254984 339.292007" stroke-dashoffset="-126.515663" transform="rotate(-90 257 119)"/>
+<text x="173" y="99" font-size="11" text-anchor="end" fill="#c9d1d9">11.7%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#e34c26" stroke-width="19" stroke-dasharray="39.584067 339.292007" stroke-dashoffset="-130.061936" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="110" r="4" fill="#f1e05a"/>
 <text x="34" y="114" font-size="11" fill="#c9d1d9">JavaScript</text>
-<text x="173" y="114" font-size="11" text-anchor="end" fill="#c9d1d9">10.2%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#f1e05a" stroke-width="19" stroke-dasharray="34.504272 339.292007" stroke-dashoffset="-166.770647" transform="rotate(-90 257 119)"/>
+<text x="173" y="114" font-size="11" text-anchor="end" fill="#c9d1d9">10.0%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#f1e05a" stroke-width="19" stroke-dasharray="33.929201 339.292007" stroke-dashoffset="-169.646003" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="125" r="4" fill="#dea584"/>
 <text x="34" y="129" font-size="11" fill="#c9d1d9">Rust</text>
-<text x="173" y="129" font-size="11" text-anchor="end" fill="#c9d1d9">10.2%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#dea584" stroke-width="19" stroke-dasharray="34.504272 339.292007" stroke-dashoffset="-201.274919" transform="rotate(-90 257 119)"/>
+<text x="173" y="129" font-size="11" text-anchor="end" fill="#c9d1d9">10.0%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#dea584" stroke-width="19" stroke-dasharray="33.929201 339.292007" stroke-dashoffset="-203.575204" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="140" r="4" fill="#b07219"/>
 <text x="34" y="144" font-size="11" fill="#c9d1d9">Java</text>
-<text x="173" y="144" font-size="11" text-anchor="end" fill="#c9d1d9">6.8%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#b07219" stroke-width="19" stroke-dasharray="23.002848 339.292007" stroke-dashoffset="-235.779191" transform="rotate(-90 257 119)"/>
+<text x="173" y="144" font-size="11" text-anchor="end" fill="#c9d1d9">6.7%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#b07219" stroke-width="19" stroke-dasharray="22.619467 339.292007" stroke-dashoffset="-237.504405" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="155" r="4" fill="#701516"/>
 <text x="34" y="159" font-size="11" fill="#c9d1d9">Ruby</text>
-<text x="173" y="159" font-size="11" text-anchor="end" fill="#c9d1d9">5.1%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#701516" stroke-width="19" stroke-dasharray="17.252136 339.292007" stroke-dashoffset="-258.782039" transform="rotate(-90 257 119)"/>
+<text x="173" y="159" font-size="11" text-anchor="end" fill="#c9d1d9">5.0%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#701516" stroke-width="19" stroke-dasharray="16.964600 339.292007" stroke-dashoffset="-260.123872" transform="rotate(-90 257 119)"/>
 <circle cx="24" cy="170" r="4" fill="#8b949e"/>
 <text x="34" y="174" font-size="11" fill="#c9d1d9">Other</text>
-<text x="173" y="174" font-size="11" text-anchor="end" fill="#c9d1d9">18.6%</text>
-<circle cx="257" cy="119" r="54" fill="none" stroke="#8b949e" stroke-width="19" stroke-dasharray="63.257832 339.292007" stroke-dashoffset="-276.034175" transform="rotate(-90 257 119)"/>
-<text x="257" y="122" font-size="23" text-anchor="middle" fill="#c9d1d9">59</text>
+<text x="173" y="174" font-size="11" text-anchor="end" fill="#c9d1d9">18.3%</text>
+<circle cx="257" cy="119" r="54" fill="none" stroke="#8b949e" stroke-width="19" stroke-dasharray="62.203535 339.292007" stroke-dashoffset="-277.088472" transform="rotate(-90 257 119)"/>
+<text x="257" y="122" font-size="23" text-anchor="middle" fill="#c9d1d9">60</text>
 <text x="257" y="138" font-size="10" text-anchor="middle" fill="#8b949e">repos</text>
 <text x="20" y="189" font-size="9" fill="#8b949e">Updated 2026-09-06</text>
 </g></svg>
