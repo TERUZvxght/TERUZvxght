@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" role="img" aria-labelledby="title desc">
+  <title id="title">TERUZ</title>
+  <desc id="desc">Developer tools, games, and systems. GitHub: TERUZvxght.</desc>
+  <rect width="1200" height="252" rx="18" fill="#f5f7fa"/>
+  <path d="M40 40V212" stroke="#176bce" stroke-width="4"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="70" y="63" fill="#536478" font-size="17" font-weight="500" letter-spacing="2.4">INDEPENDENT DEVELOPMENT</text>
+    <text x="66" y="143" fill="#172438" font-size="76" font-weight="750" letter-spacing="2">TERUZ</text>
+    <text x="70" y="192" fill="#172438" font-size="25">Developer tools, games, and systems.</text>
+    <text x="70" y="222" fill="#536478" font-size="16">@TERUZvxght</text>
+  </g>
+  <g fill="none" stroke="#d9e1eb" stroke-width="2">
+    <path d="M831 60H1130M831 126H1130M831 192H1130M865 36V216M931 36V216M997 36V216M1063 36V216M1129 36V216"/>
+    <rect x="836" y="32" width="288" height="188" rx="20" fill="#edf2f8"/>
+    <path d="M865 84H933V164H1030V84H1095" stroke="#176bce" stroke-width="3"/>
+    <path d="M865 164H899M1064 164H1095M997 50V116"/>
+  </g>
+  <g fill="#f5f7fa" stroke="#176bce" stroke-width="3">
+    <rect x="851" y="70" width="28" height="28" rx="7"/>
+    <rect x="919" y="150" width="28" height="28" rx="7"/>
+    <rect x="1016" y="70" width="28" height="28" rx="7"/>
+    <circle cx="1095" cy="84" r="8" fill="#176bce"/>
+  </g>
+</svg>
