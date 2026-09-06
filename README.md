@@ -26,18 +26,18 @@
 ## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TERUZvxght&amp;theme=github_dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TERUZvxght&amp;theme=github_dark&amp;title_color=76b7ff&amp;text_color=c9d1d9&amp;chart_color=76b7ff">
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TERUZvxght&amp;theme=github">
   <img alt="GitHub activity: contributions over the past year" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TERUZvxght&amp;theme=github" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github_dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github_dark&amp;title_color=76b7ff&amp;text_color=c9d1d9&amp;chart_color=76b7ff">
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github">
   <img alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TERUZvxght&amp;theme=github" width="49%">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TERUZvxght&amp;theme=github_dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TERUZvxght&amp;theme=github_dark&amp;title_color=76b7ff&amp;text_color=c9d1d9&amp;chart_color=76b7ff">
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TERUZvxght&amp;theme=github">
   <img alt="Top languages by public repository count" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TERUZvxght&amp;theme=github" width="49%">
 </picture>
